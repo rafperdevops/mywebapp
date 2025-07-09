@@ -10,7 +10,7 @@ def hello():
 """
 
 @app.route("/saludos")
-def hello():
+def saludos():
     return "<h1>Hola mundo!!!</h1>"
 
 if __name__ == "__main__":
